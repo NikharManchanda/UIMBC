@@ -15,12 +15,12 @@
 
 ## Instructions For Running The Decentralized Application
 
-1. Open the link http://134.209.159.164 or localhost for your local computer
+1. Open the localhost for your local computer
 2. For New User Click on SignUp button
 3. Enter Your details here correctly
 4. On success your account would be created successfully.
   Note: It is important to remember your unique user id as entered by you.
-5. Go to link http://134.209.159.164/insurance.html or localhost/insurance.html (for local host) for the demo project.
+5. Go to localhost/insurance.html (for local host) for the demo project.
 6. Enter your first name, last name and your userId as per your account.
 7. Complete rest of the form.
 8. Click the submit button.
