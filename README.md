@@ -1,10 +1,5 @@
 # Identity Management System using Blockchain
 
-## LIVE DEMO
-
-You can find live demo at http://134.209.159.164/.
-For testing the 3rd party insurance application visit http://134.209.159.164/insurance.html
-
 ## Steps to Run
 
 1. Download and install Node.js version 10.x with LTS from https://nodejs.org.
@@ -44,4 +39,3 @@ NodeJs(ExpressJS)
 
 ### Libraries Used: 
 Jquery,bootstrap
-# UIMBC
