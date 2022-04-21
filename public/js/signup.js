@@ -14,7 +14,9 @@ $(document).ready(() => {
         const pincode = document.getElementById('pincode').value;
         const state = document.getElementById('state').value;
 
+        //  ajax() method is used to perform an AJAX (asynchronous HTTP) request
         $.ajax('/api/v1.0/users/signup', {
+            //  Specifies data to be sent to the server
             data: {
                 username,
                 password,
@@ -30,10 +32,12 @@ $(document).ready(() => {
                 state
             },
             method: 'post',
+            // 	A function to be run when the request succeeds
             success: (res) => {
                 alert(res.data.message + '\nPlease login to continue');
-                location.href = '/';
+                location.href = '/login.html';
             },
+            // 	A function to run if the request fails.
             error: err => {
                 alert(err.responseJSON.data.message);
             }

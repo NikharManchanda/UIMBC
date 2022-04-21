@@ -1,6 +1,10 @@
 import fs from 'fs';
-import { promisify } from 'util';
+// It’s the conversion of a function that accepts a callback
+// into a function that returns a promise.
+import { print, promisify } from 'util';
+//interact with a local or remote ethereum node using HTTP, IPC or WebSocket.
 import Web3 from 'web3';
+//interacting with Ethereum contracts from Javascript
 import TruffleContract from 'truffle-contract';
 
 const readFile = promisify(fs.readFile);
@@ -20,7 +24,7 @@ export async function getStorageContractInstance() {
     const contract = await getStorageContract();
     return contract.deployed();
 }
-
+// Get ehtereum accounts
 export async function getEthAccounts() {
     return web3.eth.getAccounts();
 }

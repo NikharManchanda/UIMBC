@@ -13,5 +13,6 @@ $(document).ready(function () {
     else {
         document.querySelector('#username').setAttribute('hidden', 'true');
         console.log(document.querySelector('#username'));
+        
     }
 });

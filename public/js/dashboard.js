@@ -27,6 +27,7 @@ $(document).ready(function () {
                 state
             }
         };
+        
         $.post({
             headers: {
                 Authorization: `Bearer ${localStorage.getItem('userToken')}`

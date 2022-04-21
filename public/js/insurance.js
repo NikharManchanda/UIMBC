@@ -37,6 +37,7 @@ $(document).ready(() => {
                                 }
                             },
                             error: err => {
+                                // Forbidden
                                 if (err.status == 403) {
                                     alert("We don't have permissions to access the required information");
                                 }

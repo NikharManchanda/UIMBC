@@ -10,6 +10,8 @@ $(document).ready(() => {
             method: 'post',
             success: (data) => {
                 console.log(data);
+                // name of the key you want to set the value of,  
+                // value of the key you want to set the value of
                 localStorage.setItem('userToken', data.data.accessToken);
                 location.href = '/dashboard.html';
             },

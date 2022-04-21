@@ -1,6 +1,7 @@
 $(document).ready(() => {
     const token = localStorage.getItem('userToken');
     $.ajax('/api/v1.0/users/me', {
+        
         headers: {
             Authorization: `Bearer ${localStorage.getItem('userToken')}`
         },

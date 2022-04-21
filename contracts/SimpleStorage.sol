@@ -1,4 +1,4 @@
-pragma solidity ^0.4.0;
+pragma solidity ^0.4.24;
 pragma experimental ABIEncoderV2;
 
 contract SimpleStorage {
@@ -28,7 +28,6 @@ contract SimpleStorage {
  function fetch_organizations(string username) view public returns(OrganizationStruct[]){
      
      return OrganizationToUserMaps[username];
-     
      
  }
  
